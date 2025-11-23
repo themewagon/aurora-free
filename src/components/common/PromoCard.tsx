@@ -112,7 +112,7 @@ const PromoCard = ({
           </Stack>
         )}
 
-        <Button href={storeLink} target="_blank" fullWidth variant="soft" color="neutral">
+        <Button href={storeLink} target="_blank" fullWidth variant="soft">
           Explore now
         </Button>
       </Stack>
