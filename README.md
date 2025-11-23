@@ -1,27 +1,43 @@
-# Getting Started with Aurora
+# Aurora ([Free version](https://themewagon.github.io/aurora-free/))
 
-This document will guide you on how to get started with the Aurora theme.
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Running in Local Environment
+<!-- ![preview](public/assets/images/aurora-free-preview-2.webp) -->
 
-This project is scaffolded using Vite.
+> Free React Admin Dashboard made with Material-UI components and React + Vite.js.
 
-- Install Node.js if you do not already have it installed on your machine.
-- Open the “Aurora” directory with your cmd or terminal and run “npm i”
-- This command will download all the necessary dependencies for the Aurora theme in the node_modules directory.
-- Run “npm run dev”. A local web server will start at http://localhost:3000.
+## Pages
 
-## Creating a Production Build
+- [Dashboard](https://themewagon.github.io/aurora-free/)
+- [Users](https://themewagon.github.io/aurora-free/users)
+- [Account](https://themewagon.github.io/aurora-free/account)
+- [Starter](https://themewagon.github.io/aurora-free/starter)
+- [Error 404](https://themewagon.github.io/aurora-free/404)
+- [Login](https://themewagon.github.io/aurora-free/auth/login)
+- [Sign up](https://themewagon.github.io/aurora-free/auth/sign-up)
 
-After you've done your customization and are ready to build, follow these steps:
+## Quick start
 
-- Run “npm run build” command in your project directory to make the Production build.
+- Clone the repo: `git clone https://github.com/themewagon/aurora-free.git`
+- Recommended: `Node.js v20.x`
+- **Install:** `npm i` or `pnpm i`
+- **Start:** `npm run dev` or `pnpm dev`
+- **Build:** `npm run build` or `pnpm build`
+- Open browser: `http://localhost:5005`
 
-This will create an optimized production build by compiling, merging, and minifying all the source files as necessary and will put them in the dist/ folder.
+## Upgrade to PRO Version
 
-To run the production build locally, run the following commands:
+| Aurora Free                  | [Aurora Pro](https://mui.com/store/items/aurora/)                                                                                                                                       |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **7** Pages.                 | **100+** Pages.                                                                                                                                                                         |
+| **Partial** theme customize. | **Fully** theme customize.                                                                                                                                                              |
+| -                            | **Next.js** version.                                                                                                                                                                    |
+| -                            | **TypeScript** version (Standard Plus and Extended license).                                                                                                                            |
+| -                            | Design **Figma** file (Standard Plus and Extended license).                                                                                                                             |
+| -                            | Authentication with **JWT**, **Auth0**, and **Firebase**.                                                                                                                               |
+| -                            | Light/dark mode, custom theme preset, multiple layouts to choose from, right-to-left, form validation... [+more components](https://aurora.themewagon.com/component-docs/autocomplete). |
+| -                            | 1 year of free updates / 6 months of technical support.                                                                                                                                 |
 
-```shell
- npm install -g serve
- serve -s build
-```
+## Support
+
+Email: support@themewagon.com

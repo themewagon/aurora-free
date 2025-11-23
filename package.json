@@ -1,7 +1,7 @@
 {
   "name": "aurora-free",
   "private": true,
-  "version": "1.7.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

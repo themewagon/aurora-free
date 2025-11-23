@@ -1,5 +1,5 @@
 import { Button, Paper, Stack, Typography } from '@mui/material';
-import { storeLink } from 'lib/constants';
+import { freeThemewagonLink, storeLink } from 'lib/constants';
 
 const ProPlanCTA = () => {
   return (
@@ -22,7 +22,15 @@ const ProPlanCTA = () => {
           alignItems: 'flex-start',
         }}
       >
-        <Typography variant="h3" sx={{ typography: { xs: 'h4', sm: 'h3' }, flexShrink: { sm: 0 } }}>
+        <Typography
+          variant="h3"
+          sx={{
+            typography: { xs: 'h4', sm: 'h3' },
+            flexShrink: { sm: 0 },
+            lineClamp: 1,
+            wordBreak: 'break-all',
+          }}
+        >
           Try our pro features
         </Typography>
 
@@ -37,16 +45,14 @@ const ProPlanCTA = () => {
         </Typography>
       </Stack>
 
-      <Button
-        href={storeLink}
-        target="_blank"
-        variant="contained"
-        color="neutral"
-        size="large"
-        sx={{ flexShrink: 0, alignSelf: 'center' }}
-      >
-        Upgrade to Pro
-      </Button>
+      <Stack gap={1} alignItems="center" sx={{ flexShrink: 0 }}>
+        <Button href={freeThemewagonLink} target="_blank" color="neutral">
+          Download Free
+        </Button>
+        <Button href={storeLink} target="_blank" variant="contained" color="neutral">
+          Upgrade to Pro
+        </Button>
+      </Stack>
     </Paper>
   );
 };
