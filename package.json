@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "pretty": "prettier --write ."
+    "pretty": "prettier --write .",
+    "predeploy": "vite build && cp ./dist/index.html ./dist/404.html",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
