@@ -13,8 +13,6 @@ Aurora comes fully responsive out of the box, ensuring a seamless experience on 
 
 ![preview](public/assets/images/aurora-free-preview.webp)
 
-> Free React Admin Dashboard made with Material-UI components and React + Vite.js.
-
 ## Pages
 
 - [Dashboard](https://themewagon.github.io/aurora-free/)
