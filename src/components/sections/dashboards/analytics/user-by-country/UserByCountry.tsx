@@ -12,7 +12,7 @@ const UserByCountry = ({ data }: { data: UserByCountryData[] }) => {
   };
 
   return (
-    <Paper sx={{ p: { xs: 3, md: 5 } }}>
+    <Paper sx={{ p: { xs: 3, md: 5 }, height: 1 }}>
       <SectionHeader
         title="Users by Country"
         subTitle="Detail informations of users"
