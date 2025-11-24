@@ -42,7 +42,7 @@ const ProPlanCTA = () => {
               textAlign: 'center',
             }}
           >
-            Discover More with Our Pro Plan
+            Discover More with Our Pro License
           </Typography>
 
           <Stack gap={1} sx={{ alignItems: 'center' }}>
@@ -52,7 +52,7 @@ const ProPlanCTA = () => {
                 color: 'text.secondary',
               }}
             >
-              Starts from only.
+              Starts from only
             </Typography>
             <Typography
               variant="h6"
@@ -73,7 +73,7 @@ const ProPlanCTA = () => {
             variant="contained"
             color="neutral"
           >
-            See Plans
+            See Now
           </Button>
           <Button
             href={freeThemewagonLink}

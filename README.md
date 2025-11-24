@@ -2,7 +2,7 @@
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-<!-- ![preview](public/assets/images/aurora-free-preview-2.webp) -->
+![preview](public/assets/images/aurora-free-preview.webp)
 
 > Free React Admin Dashboard made with Material-UI components and React + Vite.js.
 
@@ -37,6 +37,10 @@
 | -                            | Authentication with **JWT**, **Auth0**, and **Firebase**.                                                                                                                               |
 | -                            | Light/dark mode, custom theme preset, multiple layouts to choose from, right-to-left, form validation... [+more components](https://aurora.themewagon.com/component-docs/autocomplete). |
 | -                            | 1 year of free updates / 6 months of technical support.                                                                                                                                 |
+
+## License
+
+Distributed under the [MIT](https://github.com/themewagon/aurora-free/blob/main/LICENSE.md) license.
 
 ## Support
 
