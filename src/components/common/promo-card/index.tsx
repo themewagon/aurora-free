@@ -7,6 +7,7 @@ import { storeLink } from 'lib/constants';
 import { cssVarRgba } from 'lib/utils';
 import IconifyIcon from 'components/base/IconifyIcon';
 import Image from 'components/base/Image';
+import LightRay from './LightRay';
 
 const proFeatures = ['Flexible customization', 'More pages', 'More apps', 'Quick support'];
 
@@ -30,37 +31,24 @@ const PromoCard = ({
   return (
     <Box
       className="promo-card"
-      sx={(theme) => {
-        const palette = theme.vars.palette['chGreen'];
-        const bg = theme.vars.palette.background;
-        return {
-          background: `
-          radial-gradient(
-            120.77% 120.77% at 62.42% 14.25%,
-            ${cssVarRgba(palette['50Channel'], 0)} 51.22%,
-            ${cssVarRgba(palette['100Channel'], 0.48)} 69.8%
-          ),
-          radial-gradient(
-            125.2% 221.14% at 103.41% -3.28%,
-            ${cssVarRgba(bg.elevation1Channel, 1)} 52.92%,
-            ${cssVarRgba(palette['50Channel'], 0.48)} 67.23%,
-            ${cssVarRgba(palette['100Channel'], 0.48)} 100%
-          ),
-          linear-gradient(
-            309.91deg,
-            ${cssVarRgba(palette['100Channel'], 0.02)} 0.61%,
-            ${cssVarRgba(palette['200Channel'], 0.02)} 39.75%
-          )
-        `,
-          p: 3,
-          borderRadius: 4,
-          outline: 0,
-          position: 'relative',
-          ...(sx as any),
-        };
-      }}
+      sx={({ vars }) => ({
+        background: `radial-gradient(
+            254.12% 171.73% at 103.41% -3.28%, 
+            ${cssVarRgba(vars.palette.grey['950Channel'], 1)} 52.92%, 
+            ${cssVarRgba(vars.palette.chGreen['950Channel'], 1)} 67.23%,
+            ${cssVarRgba(vars.palette.chGreen['800Channel'], 1)} 100%)
+          `,
+        p: 3,
+        borderRadius: 4,
+        outline: 0,
+        position: 'relative',
+        overflow: 'hidden',
+        ...(sx as any),
+      })}
       {...rest}
     >
+      <LightRay />
+
       <Stack direction="column" gap={2} alignItems="center">
         <Stack direction="column" alignItems="center" gap={0.5}>
           <Typography
@@ -81,7 +69,7 @@ const PromoCard = ({
             >
               {subTitle}
             </Typography>
-            <Typography component="strong" variant="subtitle2" fontWeight={700} color="success">
+            <Typography component="strong" variant="subtitle2" color="success">
               $59
             </Typography>
           </Stack>
@@ -112,7 +100,7 @@ const PromoCard = ({
           </Stack>
         )}
 
-        <Button href={storeLink} target="_blank" fullWidth variant="soft">
+        <Button href={storeLink} target="_blank" fullWidth variant="soft" color="neutral">
           Explore now
         </Button>
       </Stack>

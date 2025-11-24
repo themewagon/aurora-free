@@ -8,7 +8,7 @@ import { RESET } from 'reducers/SettingsReducer';
 import { blue, green } from 'theme/palette/colors';
 import IconifyIcon from 'components/base/IconifyIcon';
 import SimpleBar from 'components/base/SimpleBar';
-import PromoCard from 'components/common/PromoCard';
+import PromoCard from 'components/common/promo-card';
 import FontFamilyTab from './FontFamilyPanel';
 import promo from '/assets/images/illustrations/4.webp';
 
