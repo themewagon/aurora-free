@@ -7,7 +7,7 @@ import { useSettingsContext } from 'providers/SettingsProvider';
 import sitemap from 'routes/sitemap';
 import IconifyIcon from 'components/base/IconifyIcon';
 import Logo from 'components/common/Logo';
-import PromoCard from 'components/common/PromoCard';
+import PromoCard from 'components/common/promo-card';
 import NavItem from './NavItem';
 import SidenavSimpleBar from './SidenavSimpleBar';
 import promo from '/assets/images/illustrations/5.webp';
