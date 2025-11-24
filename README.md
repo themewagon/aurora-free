@@ -1,6 +1,15 @@
-# Aurora ([Free version](https://themewagon.github.io/aurora-free/))
+# Aurora Free React Material UI Admin Template
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/themewagon/aurora-free/blob/main/LICENSE.md)
+[![price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/themewagon/aurora-free/blob/main/LICENSE.md)
+[![GitHub package version](https://img.shields.io/github/package-json/v/themewagon/aurora-free)](https://github.com/themewagon/aurora-free/)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://themewagon.com/themes/aurora-free/)
+
+Aurora is a free Material UI dashboard template crafted with React and Vite.
+It focuses on delivering a clean, modern, and intuitive user experience with well-structured pages and flexible components.
+Aurora comes fully responsive out of the box, ensuring a seamless experience on any device — from large desktop screens to mobile layouts.
+
+✨ Support us! If you enjoy using Aurora, don’t forget to click the ⭐ at the top of the repo!
 
 ![preview](public/assets/images/aurora-free-preview.webp)
 
