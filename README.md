@@ -1,10 +1,17 @@
-# Aurora ([Free version](https://themewagon.github.io/aurora-free/))
+# Aurora Free React Material UI Admin Template
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/themewagon/aurora-free/blob/main/LICENSE.md)
+[![price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/themewagon/aurora-free/blob/main/LICENSE.md)
+[![GitHub package version](https://img.shields.io/github/package-json/v/themewagon/aurora-free)](https://github.com/themewagon/aurora-free/)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://themewagon.com/themes/aurora-free/)
 
-<!-- ![preview](public/assets/images/aurora-free-preview-2.webp) -->
+Aurora is a free Material UI dashboard template crafted with React and Vite.
+It focuses on delivering a clean, modern, and intuitive user experience with well-structured pages and flexible components.
+Aurora comes fully responsive out of the box, ensuring a seamless experience on any device — from large desktop screens to mobile layouts.
 
-> Free React Admin Dashboard made with Material-UI components and React + Vite.js.
+✨ Support us! If you enjoy using Aurora, don’t forget to click the ⭐ at the top of the repo!
+
+![preview](public/assets/images/aurora-free-preview.webp)
 
 ## Pages
 
@@ -37,6 +44,10 @@
 | -                            | Authentication with **JWT**, **Auth0**, and **Firebase**.                                                                                                                               |
 | -                            | Light/dark mode, custom theme preset, multiple layouts to choose from, right-to-left, form validation... [+more components](https://aurora.themewagon.com/component-docs/autocomplete). |
 | -                            | 1 year of free updates / 6 months of technical support.                                                                                                                                 |
+
+## License
+
+Distributed under the [MIT](https://github.com/themewagon/aurora-free/blob/main/LICENSE.md) license.
 
 ## Support
 

@@ -181,7 +181,7 @@ const UserByCountryTable = ({ data }: { data: UserByCountryData[] }) => {
   const combinedData = [summaryRow, ...data];
 
   return (
-    <Stack direction="column" sx={{ width: 1, height: 1 }}>
+    <Stack direction="column" sx={{ width: 1 }}>
       <DataGrid
         rowHeight={48}
         rows={combinedData}

@@ -9,7 +9,12 @@ import IconifyIcon from 'components/base/IconifyIcon';
 import Image from 'components/base/Image';
 import LightRay from './LightRay';
 
-const proFeatures = ['Flexible customization', 'More pages', 'More apps', 'Quick support'];
+const proFeatures = [
+  '10 customization options',
+  '100+ pages',
+  '12 pre-built apps',
+  '6 months technical support',
+] as const;
 
 interface PromoCardProps extends BoxProps {
   showFeatures?: boolean;

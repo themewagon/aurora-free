@@ -30,14 +30,11 @@ const Analytics = () => {
         <TopCampaigns data={topCampaignsChartData} />
       </Grid>
 
-      <Grid container size={{ xs: 12, xl: 7 }}>
-        <Grid size={12}>
-          <ProPlanCTA />
-        </Grid>
-
-        <Grid size={12}>
-          <UserByCountry data={userByCountryData} />
-        </Grid>
+      <Grid size={{ xs: 12, xl: 7 }}>
+        <UserByCountry data={userByCountryData} />
+      </Grid>
+      <Grid size={12}>
+        <ProPlanCTA />
       </Grid>
     </Grid>
   );

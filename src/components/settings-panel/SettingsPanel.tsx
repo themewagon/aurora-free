@@ -118,7 +118,7 @@ const SettingsPanel = () => {
               <Box sx={{ p: 3 }}>
                 <PromoCard
                   showFeatures={false}
-                  title="All advanced features"
+                  title="All Advanced Features"
                   subTitle="Available at"
                   img={promo}
                   imgStyles={{ maxWidth: 80 }}
