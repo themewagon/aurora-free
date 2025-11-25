@@ -55,7 +55,7 @@ const PromoCard = ({
           height: '250%',
           pointerEvents: 'none',
           transform: 'rotate(180deg)',
-          animation: `${spin} 4s linear infinite`,
+          animation: `${spin} 6s linear infinite`,
           backgroundImage: ({ vars }) =>
             `conic-gradient(transparent 0%, ${cssVarRgba(vars.palette.success.mainChannel, 1)} 25%, transparent 80%)`,
         },
