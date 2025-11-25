@@ -7,7 +7,7 @@ import { useSettingsContext } from 'providers/SettingsProvider';
 import sitemap from 'routes/sitemap';
 import IconifyIcon from 'components/base/IconifyIcon';
 import Logo from 'components/common/Logo';
-import PromoCard from 'components/common/promo-card';
+import PromoCard from 'components/common/PromoCard';
 import NavItem from './NavItem';
 import SidenavSimpleBar from './SidenavSimpleBar';
 import promo from '/assets/images/illustrations/5.webp';
@@ -106,7 +106,7 @@ const SidenavDrawerContent = ({ variant = 'permanent' }: SidenavDrawerContentPro
               ))}
             </div>
             {!sidenavCollapsed && <PromoCard img={promo} imgStyles={{ maxWidth: 136 }} />}
-          </Box>{' '}
+          </Box>
         </SidenavSimpleBar>
       </Box>
     </>
