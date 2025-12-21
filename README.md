@@ -9,9 +9,11 @@ Aurora is a free Material UI dashboard template crafted with React and Vite.
 It focuses on delivering a clean, modern, and intuitive user experience with well-structured pages and flexible components.
 Aurora comes fully responsive out of the box, ensuring a seamless experience on any device — from large desktop screens to mobile layouts.
 
+### [Preview Link](https://themewagon.github.io/aurora-free/)
+
 ✨ Support us! If you enjoy using Aurora, don’t forget to click the ⭐ at the top of the repo!
 
-![preview](public/assets/images/aurora-free-preview.webp)
+[![preview](public/assets/images/aurora-free-preview.webp)](https://themewagon.com/themes/aurora-free/)
 
 ## Pages
 
