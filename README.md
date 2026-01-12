@@ -148,7 +148,7 @@
 <h2>Support</h2>
 <p>Email: <a href="mailto:support@themewagon.com">support@themewagon.com</a></p>
 
-<h2>Need a front-end developer for custom development work?</h2>
+<h2>Hire our team</h2>
 <p>Need help with custom development? We can help you with software engineers experienced in Backend and Front end development.</p>
 <p>We have a team of experienced React JS, TypeScript, Next JS, Node JS, MongoDB, MySQL, PostgreSQL, AWS engineers & more. Also, you can hire our expert UI/UX designer.</p>
 <p>Email: <a href="mailto:reza@themewagon.com">reza@themewagon.com</a> and get a free quote.</p>
